@@ -6,7 +6,7 @@ public class Ex09 {
 		
 		System.out.println((double)5/9*(f-32.0));
 		
-						//5가 int형이기 때문에 
+						//5가 int형이기 때문에  5 / 9 = 0이기 때문이다.
 		System.out.println(5/9*(f-32.0));
 		
 	}

@@ -6,7 +6,7 @@ public class Ex17{
 	
 	
 	public static void main(String[] args) {
-		System.out.print("구의 반지름 :");
+		System.out.print("구의 반지름 : ");
 		
 		Scanner sc = new Scanner(System.in);
 		double radius = sc.nextFloat();
@@ -18,7 +18,7 @@ public class Ex17{
 		
 		double r3 = radius * radius * radius;
 		
-		System.out.println("구의 부피는 :" + r3 * GLOVE);
+		System.out.println("구의 부피는 :" + r3 * GLOVE +" 입니다.");
 		
 		
 	}

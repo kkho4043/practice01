@@ -11,15 +11,15 @@ public class Ex20 {
 		Scanner sc = new Scanner(System.in);
 		int won500 = sc.nextInt();
 		
-		System.out.print("100원 갯수 :");
+		System.out.print("100원 갯수 : ");
 		
 		
 		int won100 = sc.nextInt();
-		System.out.print("50원 갯수 :");
+		System.out.print("50원 갯수  : ");
 		
 		
 		int  won50 = sc.nextInt();
-		System.out.print("10원 갯수 :");
+		System.out.print("10원 갯수  : ");
 		
 		
 		int  won10 = sc.nextInt();
@@ -32,7 +32,7 @@ public class Ex20 {
 		
 		int all_plus = all_500+all_100+all_50+all_10;
 		
-		System.out.println("동전의 총합은 " + all_plus + "입니다.");
+		System.out.println("동전의 총합은  " + all_plus + " 원 입니다.");
 	}
 
 }

@@ -6,12 +6,12 @@ public class Ex16{
 	
 	
 	public static void main(String[] args) {
-		System.out.println("상품가격: ");
+		System.out.print("상품가격: ");
 		
 		Scanner sc = new Scanner(System.in);
 		double price = sc.nextInt();
 		
-		System.out.println("받은돈: ");
+		System.out.print("받은돈: ");
 		double pay = sc.nextInt();
 		
 		sc.close();

@@ -17,7 +17,7 @@ public class Ex12{
 		
 		
 		
-		System.out.println( "원의 넓이는" + Math.round(diameter * 100) / 100.0);
+		System.out.println( "원의 넓이는 " + Math.round(diameter * 100) / 100.0);
 		
 	}
 	
