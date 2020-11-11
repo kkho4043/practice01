@@ -8,7 +8,7 @@ public class Ex18 {
 		System.out.print("È­¾¾ : ");
 		
 		Scanner sc = new Scanner(System.in);
-		double fi = sc.nextFloat();
+		double fi = sc.nextDouble();
 		
 		sc.close();
 		

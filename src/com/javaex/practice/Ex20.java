@@ -12,17 +12,14 @@ public class Ex20 {
 		int won500 = sc.nextInt();
 		
 		System.out.print("100¿ø °¹¼ö : ");
-		
-		
 		int won100 = sc.nextInt();
+		
 		System.out.print("50¿ø °¹¼ö  : ");
-		
-		
 		int  won50 = sc.nextInt();
+		
 		System.out.print("10¿ø °¹¼ö  : ");
-		
-		
 		int  won10 = sc.nextInt();
+		
 		sc.close();
 		
 		int all_500 = 500 * won500;

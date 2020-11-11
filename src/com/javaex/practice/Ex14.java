@@ -9,7 +9,7 @@ public class Ex14{
 		System.out.print("가로를 입력하세요 : ");
 		
 		Scanner sc = new Scanner(System.in);
-		double width = sc.nextFloat();
+		double width = sc.nextDouble();
 		
 		System.out.print("세로를 입력하세요 : ");
 		double hight = sc.nextFloat();

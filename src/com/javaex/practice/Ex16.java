@@ -9,10 +9,10 @@ public class Ex16{
 		System.out.print("상품가격: ");
 		
 		Scanner sc = new Scanner(System.in);
-		double price = sc.nextInt();
+		double price = sc.nextDouble();
 		
 		System.out.print("받은돈: ");
-		double pay = sc.nextInt();
+		double pay = sc.nextDouble();
 		
 		sc.close();
 		
@@ -22,6 +22,7 @@ public class Ex16{
 		
 		final double VAT = 10;
 		double balance = pay - price;
+		
 		System.out.println( "부가세 : "+ price / VAT);
 
 		System.out.println( "잔액 : " + balance);

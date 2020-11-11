@@ -9,7 +9,7 @@ public class Ex13{
 		System.out.print("환전할 원화를 입력하세요 : ");
 		
 		Scanner pay = new Scanner(System.in);
-		float won = pay.nextInt();
+		float won = pay.nextFloat();
 		pay.close();
 
 		final double dollar_per = 1230.95;

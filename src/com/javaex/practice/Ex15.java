@@ -9,7 +9,7 @@ public class Ex15{
 		System.out.print("마일을 입력하세요 : ");
 		
 		Scanner sc = new Scanner(System.in);
-		double mile = sc.nextFloat();
+		double mile = sc.nextDouble();
 		
 		final double MILE_TO_KILLO = 1.609;
 		
